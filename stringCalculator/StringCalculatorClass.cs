@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace stringCalculator
@@ -12,9 +13,25 @@ namespace stringCalculator
 
         private int Addition(string parameters)
         {
+            //var split = parameters.Split(new Char[] {',', '\n'});
 
-            var array = parameters.Replace(",", String.Empty).Select(x => int.Parse(x.ToString())).ToArray();
+            //var flattenArray = split.SelectMany(x => x).Distinct().ToArray();
+
+            
+            
+      
+            
+            //var numericArray = Array.ConvertAll(split, c => (int) Char.GetNumericValue(c));
+
+            //throw new ArgumentException($"wrong");
+
+
+
+            var array = parameters.Replace(",", String.Empty).Replace("\n", String.Empty)
+                .Select(x => int.Parse(x.ToString())).ToArray();
             return array.Sum();
         }
+
+
     }
 }

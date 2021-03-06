@@ -1,5 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1e24fde6_002Dcd4b_002D4cfd_002D97de_002Daff14baffe5b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from UnitTest1.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1e24fde6_002Dcd4b_002D4cfd_002D97de_002Daff14baffe5b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from UnitTest1.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;ProjectFile&gt;6BAEB500-41D0-4164-B35F-5C2B45B05900/f:UnitTest1.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3d59e44b_002D7d6c_002D4445_002Db865_002D84cfd6bad140/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -7,7 +7,7 @@
     &lt;TestId&gt;xUnit::6BAEB500-41D0-4164-B35F-5C2B45B05900::.NETCoreApp,Version=v3.1::StringCalculator.Tests.UnitTest1.Test1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=76491c07_002Db7a9_002D495a_002D9b3b_002Db87712216e35/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GivenASingleNumberReturnNumber" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=76491c07_002Db7a9_002D495a_002D9b3b_002Db87712216e35/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GivenASingleNumberReturnNumber" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::6BAEB500-41D0-4164-B35F-5C2B45B05900::.NETCoreApp,Version=v3.1::StringCalculator.Tests.UnitTest1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
