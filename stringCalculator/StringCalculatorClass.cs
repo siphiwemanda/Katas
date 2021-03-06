@@ -13,25 +13,34 @@ namespace stringCalculator
 
         private int Addition(string parameters)
         {
-            //var split = parameters.Split(new Char[] {',', '\n'});
 
-            //var flattenArray = split.SelectMany(x => x).Distinct().ToArray();
-
-            
-            
-      
-            
-            //var numericArray = Array.ConvertAll(split, c => (int) Char.GetNumericValue(c));
-
-            //throw new ArgumentException($"wrong");
-
-
-
-            var array = parameters.Replace(",", String.Empty).Replace("\n", String.Empty)
-                .Select(x => int.Parse(x.ToString())).ToArray();
-            return array.Sum();
+            var parametersWithoutStrings = RemoveStrings(parameters);
+            var validatedArray = ValidateNumbers(parametersWithoutStrings);
+            return validatedArray.Sum();
         }
 
+        private int[] ValidateNumbers(int[] parameters)
+        {
+            List<int> negativeNumbers = parameters.Where(number => number < 0).ToList();
 
+
+            if (negativeNumbers.Count > 0)
+            {
+                
+                throw new ArgumentException($"error: negatives not allowed");
+            }
+
+            return parameters;
+        }
+
+        private int[] RemoveStrings(string parameters)
+        {
+            string[] split = parameters.Split(new Char[] {',', '\n'}).ToArray();
+
+            int[] array = Array.ConvertAll(split, Int32.Parse);
+
+            return array;
+        }
     }
 }
+

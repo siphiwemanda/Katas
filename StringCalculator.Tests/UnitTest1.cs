@@ -69,7 +69,7 @@ namespace StringCalculator.Tests
             //Act 
             var throws = Assert.Throws<ArgumentException>(() => stringCalculator.Calculate("1,-2,-3"));
             //Assert
-            Assert.Equal("error: negatives not allowed: -2 -3", throws.Message);
+            Assert.Equal("error: negatives not allowed", throws.Message);
         }
     }
 }
